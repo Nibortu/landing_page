@@ -5,7 +5,6 @@ import { bindActionCreators } from 'redux'
 const Dummy = () => {
   return (
     <>
-
       <header className="header">
         <div className="header_wrap d-flex flex-row align-items-center justify-content-center">
           <div className="logo">
