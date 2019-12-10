@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
+
 import Navbar from './common/navigate'
 import Header from './common/header'
-
 
 const Dummy = () => {
   return (

@@ -18,12 +18,14 @@
   },
   "rules": {
     "space-before-function-paren": "off",
+    "no-console": "off",
     "react/prefer-stateless-function": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "jsx-a11y/anchor-is-valid": "off",
     "jsx-a11y/label-has-for": [ 2, {
       "required": {
           "every": [ "id" ]
+    
       }
     }],
     "jsx-a11y/label-has-associated-control": [ 2, {

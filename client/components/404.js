@@ -6,10 +6,12 @@ import { push } from 'connected-react-router'
 import { connect } from 'react-redux'
 
 const NotFound = (props) => (
-  <div>
-    <h1> 404: URL Is not found </h1>
-    <button type="button" tabIndex="0" onClick={props.goRoot}>Go to root</button>
-  </div>
+  <>
+    <div>
+      <h1> we are sorry, but this is page 404 </h1>
+      <button type="button" tabIndex="0" onClick={props.goRoot}>Go to root</button>
+    </div>
+  </>
 );
 
 NotFound.propTypes = {

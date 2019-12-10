@@ -1,7 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux'
+import Cookies from 'universal-cookie'
 
+const cookies = new Cookies();
+cookies.set('myCat', 'Pacman', { path: '/' })
+console.log(cookies.get('myCat')); // Pacman
 const Dummy = () => {
   return (
     <header className="masthead text-white text-center">
